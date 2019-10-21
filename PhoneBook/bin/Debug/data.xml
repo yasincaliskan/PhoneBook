@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Kisiler">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:string" minOccurs="0" />
+                <xs:element name="Ad" type="xs:string" minOccurs="0" />
+                <xs:element name="Soyad" type="xs:string" minOccurs="0" />
+                <xs:element name="TelefonNo" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Kisiler>
+    <Id>39e934d9-6a8a-478b-b05e-8cfc7fbe697c</Id>
+    <Ad>Yasin</Ad>
+    <Soyad>Çalışkan</Soyad>
+    <TelefonNo>55555555</TelefonNo>
+  </Kisiler>
+  <Kisiler>
+    <Id>e3f45df7-d6d0-41b6-95a4-6be80d2962d7</Id>
+    <Ad>Emirhan</Ad>
+    <Soyad>Acısu</Soyad>
+    <TelefonNo>6666666</TelefonNo>
+  </Kisiler>
+  <Kisiler>
+    <Id>aede3f88-c508-4b2a-ac63-620b85004e83</Id>
+    <Ad>Dilara</Ad>
+    <Soyad />
+    <TelefonNo>5123123</TelefonNo>
+  </Kisiler>
+</NewDataSet>

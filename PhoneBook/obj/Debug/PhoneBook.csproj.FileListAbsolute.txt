@@ -8,3 +8,6 @@ C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.Gener
 C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
 C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
 C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.frmDuzenle.resources
+C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.frmYeniKayit.resources
+C:\Users\Yasko\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.frmHakkinda.resources
