@@ -32,7 +32,11 @@ namespace PhoneBook
             this.YeniKisi.Id = Guid.NewGuid();
             this.YeniKisi.Ad = txtAd.Text.ToString();
             this.YeniKisi.Soyad = txtSoyad.Text.ToString();
-            this.YeniKisi.Soyad = txtTelNo.Text.ToString();
+            this.YeniKisi.TelefonNo = txtTelNo.Text.ToString();
+
+            string[] kisi = new string[4];
+
+            System.IO.File.Create(Application.StartupPath + @"\kayitlar.txt");
 
             this.DialogResult = DialogResult.OK;
             this.Close();
