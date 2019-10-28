@@ -21,6 +21,8 @@ namespace PhoneBook
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Tablo oluşturarak
+
             //DataTable dt = new DataTable("Kisiler");
             //DataColumn dcId = new DataColumn("Id");
             //DataColumn dcAd = new DataColumn("Ad");
