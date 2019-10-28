@@ -25,6 +25,8 @@ namespace PhoneBook
             this.GuncellenecekKisi.Soyad = this.txtSoyad.Text;
             this.GuncellenecekKisi.TelefonNo = this.txtTelNo.Text;
 
+            System.IO.File.Create(Application.StartupPath + @"\kayitlar.txt");
+
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
